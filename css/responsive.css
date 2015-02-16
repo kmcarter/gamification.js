@@ -1,0 +1,115 @@
+/* ------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+--  iPad Portrait & Kindle Landscape -- 768-959: Based on 748px, with 1em padding
+---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:959px) {
+	
+	body {font-size:21px;}
+	
+	#timer {
+		height: 50px;
+		width: 85px;
+		border-width: 7px;
+	}
+	
+	#user-tally li, #options, #wrongLinks {
+		border-width: 7px;
+	}
+	
+	
+}
+
+
+
+/* ------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+--  iPhone Landscape & Kindle Portrait -- 568-767: Based on 548px, with 1em padding
+---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:767px) {
+	body {font-size:18px;}
+	.title-screen h2 {margin:0 0 .5em 0;}
+	.cta {padding:.75em 0;}
+	
+	#timer {
+		height: 40px;
+		width: 75px;
+		border-width: 6px;
+	}
+	
+	#user-tally li, #options, #wrongLinks {
+		border-width: 6px;
+	}
+	
+	#user-tally li {line-height: 45px;}
+	
+	#tracking {height: 115px;margin:0 auto;}
+	
+	#question {margin-bottom: .5em;}
+	
+	#play-again {width: 200px;}
+	
+	#fb-root.fb_reset {margin: 1px auto;}
+}
+
+
+
+/* ------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+--  iPhone Portrait -- 300-567: Based on 300px, with 1em padding
+---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:567px) {
+	body {font-size:16px;}
+	
+	#header {
+		margin-bottom: 2%;
+	}
+	
+	.cta {
+	padding: 1em 0;
+	}
+	
+	#timer {
+		height: 30px;
+		width: 65px;
+		border-width: 5px;
+		padding: 21px 4px;
+		line-height: 1.25em;
+	}
+	
+	#user-tally li, #options, #wrongLinks {
+		border-width: 5px;
+	}
+	
+	#user-tally li {padding:0 10px;line-height: 40px;margin-top: 10px;}
+	
+	#tracking {height: 90px;margin:0 auto;}
+	
+	#options a, #wrongLinks a {
+	width: 96.5%;
+	padding: 2.5% 1.5%;}
+	
+	#play-again, #fb-root.fb_reset {
+		float:none;
+	}
+	
+	#play-again {
+		margin:0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

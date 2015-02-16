@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=no" />
+	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
+	
+	<!--[if IE]><link rel="stylesheet" type="text/css" href="css/ie.css" /><![endif]-->
+	
+	<meta property="og:url" content="http://www.edazzle.com/manic_money" /> 
+	<meta property="og:title" content="Manic Money" />
+	<meta property="og:description" content="Manic Money Trivia Game" /> 
+	
+</head>
+<body>
+	
+	<div class="w">
+	
+		<div class="title-screen">
+		    <h1><span id="textManic">Manic</span><br><span id="textMoney">Money</span></h1>
+		    <h2>Trivia Game</h2>
+		    <p>How much do you <i>really</i> know about your money?<br/>
+			Find out in 60 seconds.</p>
+		    <a id="start-game" class="cta bu green" href="#">Get Started</a>
+		</div>
+	
+		<div id="header" style="display:none;">
+			<h1>Manic Money</h1>
+			<h2>Trivia Game</h2>
+		</div>
+	
+		<div id="tracking" style="display:none;">
+			<div id="timer"></div>
+			<ul id="user-tally">
+		    	<li id="tally-wrong"></li>
+				<li id="tally-correct"></li>
+			</ul>
+		</div>
+		<div id="question" style="display:none;"></div>
+		<ul id="options" style="display:none;"></ul>
+		<div id="qResult" style="display:none;"></div>
+		<div id="gameOver" style="display:none;"></div>
+	
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/default.js"></script>
+	
+</body>
+</html>
